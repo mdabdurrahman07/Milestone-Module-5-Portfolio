@@ -14,6 +14,7 @@ font-family: 'Philosopher', sans-serif;
     color: white;
     font-size: 20px;
     font-style: normal;
+    padding: 10px 14px;
     /* font-weight: 700; */
    
 }
@@ -185,6 +186,34 @@ main section{
 }
 .resume-container{
     display: flex;
-    justify-content: space-around;
+    gap: 70px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-disp{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
 
+}
+.resume-container hr{
+    margin: 0px 30px;
+}
+/* cv */
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
+}
