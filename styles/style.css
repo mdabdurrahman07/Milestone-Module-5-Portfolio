@@ -172,18 +172,19 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 /* resume related style */
-.section-tile{
+.section-title{
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.resume-colum-title{
+.resume-column-title{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.resume-all{
+.resume-container{
     display: flex;
+    justify-content: space-around;
 }
 
